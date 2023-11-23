@@ -272,9 +272,7 @@ export function AddProductForm() {
         <Alert variant="destructive" className="absolute bottom-2 max-w-sm">
           <ExclamationTriangleIcon className="h-4 w-4" />
           <AlertTitle>Erro!</AlertTitle>
-          <AlertDescription>
-            Erro ao criar produto! Tente novamente mais tarde.
-          </AlertDescription>
+          <AlertDescription>Erro ao criar produto!</AlertDescription>
         </Alert>
       )}
     </>
